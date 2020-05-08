@@ -9,16 +9,16 @@ Metadata:
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
     Labels: ['alibaba', 'dingding', 'lambda-layer']
-    HomePageUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
-    SemanticVersion: 1.0.0
-    SourceCodeUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
+    HomePageUrl: https://github.com/nikosheng/alibaba-dingding-lambda-layer
+    SemanticVersion: 1.0.1
+    SourceCodeUrl: https://github.com/nikosheng/alibaba-dingding-lambda-layer
 
 Resources:
   DingdingLambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
       LayerName: DingdingLayer
-      Description: v.1.0.0
+      Description: v.1.0.1
       ContentUri: layer/
       CompatibleRuntimes:
       - python3.6
